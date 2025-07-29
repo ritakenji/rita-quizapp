@@ -71,10 +71,11 @@ body {
   right: 5vw;
 }
 
-.card__bookmark--filled {
+/*  CODE BELOW WAS FOR WHEN SVG COULD BE EDITABLE, SINCE THEN .card__bookmark IS A .PNG   */
+/* .card__bookmark--filled {
   fill: "black";
   stroke: "white";
-}
+} */
 
 .card__question {
   text-align: center;
