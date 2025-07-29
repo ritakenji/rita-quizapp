@@ -23,7 +23,7 @@ body {
   position: fixed;
   bottom: 0;
   width: var(--total);
-  height: var(--ten) %;
+  height: var(--ten);
   border-top: 1px solid black;
 }
 
