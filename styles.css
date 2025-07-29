@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+/* ---------------------------------- HEADER ----------------------------------*/
 .main-header {
   position: fixed;
   top: 0;
@@ -17,7 +18,27 @@ body {
 
 .main-header__title {
   font-size: var(--big);
+  font-family: "Henny Penny", system-ui;
 }
+
+/* ---------------------------------- MAIN ----------------------------------*/
+
+.card__bookmark {
+  width: 24px;
+  height: 24px;
+  fill: "none";
+  stroke: "black";
+  stroke-width: 2px;
+  stroke-linecap: "round";
+  stroke-linejoin: "round";
+}
+
+.card__bookmark--filled {
+  fill: "black";
+  stroke: "white";
+}
+
+/* ---------------------------------- FOOTER ----------------------------------*/
 
 .main-footer {
   position: fixed;
