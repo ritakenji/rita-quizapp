@@ -7,8 +7,8 @@ body {
 .main-header {
   position: fixed;
   top: 0;
-  width: 100%;
-  height: 10%;
+  width: var(--total);
+  height: var(--ten);
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
@@ -16,14 +16,14 @@ body {
 }
 
 .main-header__title {
-  font-size: 3rem;
+  font-size: var(--big);
 }
 
 .main-footer {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  height: 10%;
+  width: var(--total);
+  height: var(--ten) %;
   border-top: 1px solid black;
 }
 
@@ -31,9 +31,9 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  height: var(--total);
 }
 
-.footer-link img {
-  height: 3rem;
+.footer-nav__link img {
+  height: var(--big);
 }
