@@ -1,0 +1,12 @@
+:root {
+  /* Color Variables */
+  --blue: #628bbd;
+  --pink: #ffcdcd;
+  --gray: #cdcdd5;
+  --rouge: #bd4a73;
+  --filled: #f65273; /*for the bookmark, but the svg editing in code was not working so I used png instead*/
+
+  /* Size Variables */
+  --big: 3rem;
+  --total: 100%;
+}
