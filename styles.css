@@ -87,7 +87,13 @@
 .profile__top {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10vw;
+  align-items: center;
+}
+
+.profile__top__img {
+  height: 50vh;
 }
 
 .profile__about-me {
@@ -111,7 +117,7 @@
   align-items: center;
   border: 1px solid black;
   border-radius: 12px;
-  padding: 5px 25px;
+  padding: 5px 35px;
 }
 
 .counter__question {
