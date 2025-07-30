@@ -1,0 +1,17 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  width: var(--total);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--rouge);
+  z-index: 3;
+}
+
+.main-header__title {
+  font-size: var(--big);
+  font-family: "Henny Penny", system-ui;
+  color: white;
+  margin: 0;
+}

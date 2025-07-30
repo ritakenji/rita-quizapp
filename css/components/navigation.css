@@ -1,0 +1,19 @@
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: var(--total);
+  height: 10vh;
+  background-color: var(--blue);
+  z-index: 3;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: var(--total);
+}
+
+.footer-nav__link img {
+  height: var(--big);
+}
