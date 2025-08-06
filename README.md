@@ -6,6 +6,7 @@
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<br/>
 <div align="center">
   <a href="https://ritakenji.github.io/rita-quizapp/">
     <img src="assets/logo.png" alt="Logo">
@@ -14,12 +15,12 @@
   <h3 align="center">⭐ Rita-QuizApp ⭐</h3>
 
   <p align="center">
-    <br />
-    An on going project done for the WB Front-End bootcamp at Neuefische.
+    <br/>
+    An on going project done for the Web-Development Front-End bootcamp at Neuefische.
+    <br/>
     <a href="https://ritakenji.github.io/rita-quizapp/">View Demo</a>
   </p>
-    <br />
-    <br />
+    <br/>
 </div>
 
 <!-- TABLE OF CONTENTS -->
