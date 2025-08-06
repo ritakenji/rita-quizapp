@@ -57,6 +57,8 @@ This project will be edited as time goes by. Part 1 was creating the website's l
 
 ## 🧩Features
 
+![MobilePreview][mobile-preview]
+
 The entirety of the website has incorporated resposive styling, meaning it can be viewed and interacted from any size of device (mobile, tablet, laptop or desktop).
 
 It consists of 3 main pages:
@@ -127,4 +129,4 @@ This space lists resources I found helpful in the creation and development of th
 [license-url]: https://github.com/ritakenji/rita-quizapp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rita-macedo-557864103/
-[project-logo]: assets/logo.png
+[mobile-preview]: assets/mobile_preview.png
