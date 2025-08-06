@@ -6,7 +6,7 @@
 [![Unlicense License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<br/>
+</br>
 <div align="center">
   <a href="https://ritakenji.github.io/rita-quizapp/">
     <img src="assets/logo.png" alt="Logo">
@@ -15,12 +15,11 @@
   <h3 align="center">⭐ Rita-QuizApp ⭐</h3>
 
   <p align="center">
-    <br/>
     A mobile web application quiz about <i>The Internet</i>!
-    <br/>
+    </br>
     <a href="https://ritakenji.github.io/rita-quizapp/">View Demo</a>
   </p>
-    <br/>
+    </br>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -39,8 +38,9 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+</br>
 
-## 🌐Overview
+## 🌐 Overview
 
 <!-- Write a brief summary explaining what the project is, its main purpose, and what someone can expect to find in the repository. -->
 <p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) on going project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
@@ -49,17 +49,17 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 📝Notes
+### 📝 Notes
 
 This project will be edited as time goes by. Part 1 was creating the website's layout using only HTML and CSS. Part 2 will be implementing Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧩Features
+## 🧩 Features
 
 ![MobilePreview][mobile-preview]
 
-The entirety of the website has incorporated resposive styling, meaning it can be viewed and interacted from any size of device (mobile, tablet, laptop or desktop).
+Application optimized for mobile screen, but responsive CSS design has been applied, meaning it can be viewed and interacted from any size of device (mobile, tablet, laptop or desktop).
 
 It consists of 3 main pages:
 
@@ -76,13 +76,13 @@ It consists of 3 main pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧠Learning Outcomes
+## 🧠 Learning Outcomes
 
 <!-- Learning Outcomes This is a great section to highlight what you've learned. What new concepts did you apply? Did you master a new technology or design principle? This shows off the skills you've gained during the project. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻Technologies
+## 💻 Technologies
 
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/dusk/64/javascript-logo.png" alt="javascript" width="40" height="40"/></a>
@@ -93,7 +93,7 @@ It consists of 3 main pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🏅Acknowledgments
+## 🏅 Acknowledgments
 
 This space lists resources I found helpful in the creation and development of this project and would like to give credit to. I am sure anyone could make great use of them for their own projects, specially if just now starting their coding journey!
 
