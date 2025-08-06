@@ -1,3 +1,11 @@
+<a id="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Unlicense License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 <div align="center">
   <a href="https://ritakenji.github.io/rita-quizapp/">
     <img src="assets/logo.png" alt="Logo">
@@ -7,19 +15,12 @@
 
   <p align="center">
     <br />
-    <br />
     An on going project done for the WB Front-End bootcamp at Neuefische.
     <a href="https://ritakenji.github.io/rita-quizapp/">View Demo</a>
   </p>
     <br />
     <br />
 </div>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
 <details>
