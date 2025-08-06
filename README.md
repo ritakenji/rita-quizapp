@@ -1,4 +1,15 @@
-⭐ #Rita-QuizApp ⭐
+<div align="center">
+  <a href="https://ritakenji.github.io/rita-quizapp/">
+    <img src="assets/logo.png" alt="Logo">
+  </a>
+
+  <h3 align="center">⭐ Rita-QuizApp ⭐</h3>
+
+  <p align="center">
+    An on going project done for the WB Front-End bootcamp at Neuefische.
+    <a href="https://ritakenji.github.io/rita-quizapp/">View Demo</a>
+  </p>
+</div>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -24,8 +35,6 @@ TABLE OF CONTENTS
 </details>
 
 ## Overview
-
-[![Project Name Logo][project-logo]](https://example.com)
 
 Project Title and Overview Start with a clear, engaging title for your project. Write a brief summary explaining what the project is, its main purpose, and what someone can expect to find in the repository.
 
