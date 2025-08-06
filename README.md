@@ -83,7 +83,7 @@ It consists of 3 main pages:
 ## 💻Technologies
 
 <p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/dusk/64/javascript-logo.png" alt="javascript" width="40" height="40"/>     </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/dusk/64/javascript-logo.png" alt="javascript" width="40" height="40"/></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://img.icons8.com/dusk/64/css3.png" alt="html-5" width="40" height="40"/></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://img.icons8.com/dusk/64/html-5.png" alt="html-5" width="40" height="40"/></a>
 </p>
