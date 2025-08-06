@@ -1,4 +1,4 @@
-#⭐ Rita-QuizApp ⭐
+⭐ #Rita-QuizApp ⭐
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
