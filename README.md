@@ -44,7 +44,7 @@
 <p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
 <p>The task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed. We were given the freedom to choose the theme of the quiz, or to pick one from the options provided. For lack of time, I decided to go for the latter (how tragically boring, I know).</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=275px width=300px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-1" height=175px width=200px>
+  <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-2" height=375px width=400px>
 </p>
 <p>The main goal of this project was to apply all the learned and practiced subjects taught in the first week of the bootcamp: HTML and CSS. Part 2 of this project was to start implementing the newly acquired Javascript knowledge, to make the layout more interactable.</p>
 
