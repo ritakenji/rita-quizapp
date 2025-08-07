@@ -12,7 +12,7 @@
     <img src="assets/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">⭐ Rita-QuizApp ⭐</h3>
+  <h2 align="center">⭐ Rita-QuizApp ⭐</h2>
 
   <p align="center">
     A mobile web application quiz about <i>The Internet</i>!
@@ -39,7 +39,7 @@
 </details>
 </br>
 
-## 🌐 Overview
+<h2 id="overview">🌐 Overview</h2>
 
 <p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
 <p>The task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed. We were given the freedom to choose the theme of the quiz, or to pick one from the options provided. For lack of time, I decided to go for the latter (how tragically boring, I know).</p>
@@ -50,13 +50,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 📝 Notes
+<h3 id="notes">📝 Notes</h3>
 
 This project will be edited as time goes by. Part 1 was creating the website's layout using only HTML and CSS. Part 2 will be implementing Javascript. Some changes may apply from time to time!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧩 Features
+<h2 id="features">🧩 Features</h2>
 
 The application is optimized for mobile screen, but responsive CSS design has been applied, meaning it can be viewed and interacted without any issues, from any size of device (mobile, tablet, laptop or desktop).
 
@@ -83,7 +83,7 @@ It consists of 3 main pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🧠 Learning Outcomes
+<h2 id="learning-outcomes">🧠 Learning Outcomes</h2>
 
 - Using correct **HTML semantics** to structure the page and make it more accessible to anyone visiting it;
 - Learning how to correctly use the **BEM** method to classify the page's elements;
@@ -93,7 +93,7 @@ It consists of 3 main pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Technologies
+<h2 id="technologies">💻 Technologies</h2>
 
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/dusk/64/javascript-logo.png" alt="javascript" width="40" height="40"/></a>
@@ -104,7 +104,7 @@ It consists of 3 main pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🏅 Acknowledgments
+<h2 id="acknowledgments">🏅 Acknowledgments</h2>
 
 This space lists resources I found helpful in the creation and development of this project, to which I would like to give credit to.
 I am sure anyone could make great use of them for their own projects, especially if just now starting their coding journey!
