@@ -22,7 +22,6 @@
     </br>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -42,43 +41,55 @@
 
 ## 🌐 Overview
 
-<!-- Write a brief summary explaining what the project is, its main purpose, and what someone can expect to find in the repository. -->
-<p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) on going project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
-<p>The task provided was simple: build the layout of a mobile web application, a quiz app. We were given the freedom to choose the theme of the quiz, or pick one of the options provided.</p>
-<p>The main goal of this project was to apply all the learned and practiced subjects taught in the first week of the bootcamp: HTML and CSS. Part 2 of this project is to start implementing Javascript, to make the layout more interactable.</p>
+<p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
+<p>The task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed. We were given the freedom to choose the theme of the quiz, or to pick one from the options provided. For lack of time, I decided to go for the latter (how tragically boring, I know).</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=175px width=200px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-1" height=175px width=200px>
+</p>
+<p>The main goal of this project was to apply all the learned and practiced subjects taught in the first week of the bootcamp: HTML and CSS. Part 2 of this project was to start implementing the newly acquired Javascript knowledge, to make the layout more interactable.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 📝 Notes
 
-This project will be edited as time goes by. Part 1 was creating the website's layout using only HTML and CSS. Part 2 will be implementing Javascript.
+This project will be edited as time goes by. Part 1 was creating the website's layout using only HTML and CSS. Part 2 will be implementing Javascript. Some changes may apply from time to time!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🧩 Features
 
-![MobilePreview][mobile-preview]
+The application is optimized for mobile screen, but responsive CSS design has been applied, meaning it can be viewed and interacted without any issues, from any size of device (mobile, tablet, laptop or desktop).
 
-Application optimized for mobile screen, but responsive CSS design has been applied, meaning it can be viewed and interacted from any size of device (mobile, tablet, laptop or desktop).
+</br>
+<div align="center">
+  <a href="https://ritakenji.github.io/rita-quizapp/">
+    <img src="assets/mobile-preview.png" alt="web-preview">
+  </a>
+</div>
+</br>
 
 It consists of 3 main pages:
 
 - 🏠 **Home page**: Here, the user will have access to view all questions available on the platform.
-  - Each card will have a question and upon clicking the button, the user unveils the correct answer.
+  - Each card will have a question and upon clicking the button, the user unveils the correct answer. It is also possible to hide the answer once reveiled.
   - For categorizing purposes, each card also contains a set of 3 tags related to the subject.
-  - It is possible for the user to bookmark each question of their interest.
-- 🔖 **Bookmark page**: This is a dedicated space where the user can exclusively view the questions they've bookmarked, similar to the ones marked on the home page.
-  - Here the user can not just view, but also remove a card from their saved bookmark selection.
+  - It is possible for the user to bookmark each question of their interest, which will be stored in the _Bookmarks page_.
+- 🔖 **Bookmarks page**: This is a exclusively dedicated space for the user to view the questions they've bookmarked on the homepage.
+  - Here the user may not just view, but also remove a card from their saved bookmark selection.
 - 👤 **Profile page**: This section allows the user to view and manage their profile and settings.
   - '_About Me_' section displays the user's bio.
   - Present on this page are 2 _counters_ - number of questions created and number of saved bookmarks.
-  - Last section is '_Settings_', which allow user to toggle **Dark Mode** on and off.
+  - Last section is '_Settings_', which allows user to toggle **Dark Mode**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🧠 Learning Outcomes
 
-<!-- Learning Outcomes This is a great section to highlight what you've learned. What new concepts did you apply? Did you master a new technology or design principle? This shows off the skills you've gained during the project. -->
+- Using correct **HTML semantics** to structure the page and make it more accessible to anyone visiting it;
+- Learning how to correctly use the **BEM** method to classify the page's elements;
+- Understanding the **CSS box-model**, **flexbox** and **positioning** principles to achieve a clean and **responsive design** that works seamlessly;
+- Combining HTML and Javascript via **onclick** attributes, in order to trigger actions that allow certain elements to change appearance and others to be created or even fully erased.
+- Integrating JavaScript functions like **if/else**, as well as data structures such as **arrays** and **objects**;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +106,8 @@ It consists of 3 main pages:
 
 ## 🏅 Acknowledgments
 
-This space lists resources I found helpful in the creation and development of this project and would like to give credit to. I am sure anyone could make great use of them for their own projects, specially if just now starting their coding journey!
+This space lists resources I found helpful in the creation and development of this project, to which I would like to give credit to.
+I am sure anyone could make great use of them for their own projects, especially if just now starting their coding journey!
 
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -129,4 +141,3 @@ This space lists resources I found helpful in the creation and development of th
 [license-url]: https://github.com/ritakenji/rita-quizapp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rita-macedo-557864103/
-[mobile-preview]: assets/mobile_preview.png
