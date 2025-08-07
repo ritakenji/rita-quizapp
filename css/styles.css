@@ -7,6 +7,10 @@
 
 /* ---------------------------------- PROFILE ----------------------------------*/
 
+.profile-page {
+  background-color: #d3e9ff;
+}
+
 .profile {
   width: 90vw;
   padding: 1vh 4vw;
@@ -32,6 +36,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding: 0rem 1rem;
+}
+
+.profile__about-me__text--right {
+  text-align: right;
+  font-style: italic;
+  font-size: 12px;
 }
 
 .profile__counters {
