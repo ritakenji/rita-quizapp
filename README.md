@@ -121,6 +121,7 @@ I am sure anyone could make great use of them for their own projects, especially
 - [PageSpeed Insights](https://pagespeed.web.dev/)
 - [Oh Shit Git](https://ohshitgit.com/)
 - [Html-Css-Js](https://html-css-js.com/css/generator/box-shadow/)
+- [Pokemon Palettes](http://pokepalettes.com/)
 - [CSS Gradient](https://cssgradient.io/)
 - [Get BEM](https://getbem.com/naming/)
 - [CSS Tricks](https://css-tricks.com/guides/)
