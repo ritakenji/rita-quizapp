@@ -12,6 +12,11 @@
 }
 
 .card__bookmark {
+  all: unset;
+  cursor: pointer;
+}
+
+.card__bookmark__img {
   width: 2rem;
   /* height: 2rempx; */
   fill: "none";
