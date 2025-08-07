@@ -46,7 +46,7 @@
 .card__button {
   background-color: var(--rouge);
   color: white;
-  border: 2px solid black;
+  border: 5px outset var(--blue);
   padding: 14px 40px;
   z-index: 2;
   transition: background-color 0.4s ease;
@@ -57,6 +57,7 @@
 
 .card__button:hover {
   background-color: var(--blue);
+  border: 5px outset var(--rouge);
 }
 
 .card__tags {
@@ -68,7 +69,6 @@
 }
 
 .card__tags__tag {
-  border: 1px solid black;
   padding: 5px 15px;
   border-radius: 12%;
   background-color: var(--grayblue);
