@@ -14,6 +14,23 @@
   height: var(--total);
 }
 
+.footer-nav__link {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: background-color 0.4s ease;
+}
+
+.footer-nav__link--active {
+  background-color: var(--rouge);
+}
+
+.footer-nav__link:hover {
+  background-color: var(--rouge);
+}
+
 .footer-nav__link img {
   height: var(--big);
 }

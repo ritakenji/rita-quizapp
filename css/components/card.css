@@ -12,6 +12,11 @@
 }
 
 .card__bookmark {
+  all: unset;
+  cursor: pointer;
+}
+
+.card__bookmark__img {
   width: 2rem;
   /* height: 2rempx; */
   fill: "none";
@@ -20,7 +25,7 @@
   stroke-linecap: "round";
   stroke-linejoin: "round";
   position: absolute;
-  top: -15px;
+  top: -8px;
   right: 5vw;
 }
 
@@ -41,7 +46,7 @@
 .card__button {
   background-color: var(--rouge);
   color: white;
-  border: 2px solid black;
+  border: 5px outset var(--blue);
   padding: 14px 40px;
   z-index: 2;
   transition: background-color 0.4s ease;
@@ -52,6 +57,7 @@
 
 .card__button:hover {
   background-color: var(--blue);
+  border: 5px outset var(--rouge);
 }
 
 .card__tags {
@@ -63,9 +69,8 @@
 }
 
 .card__tags__tag {
-  border: 1px solid black;
   padding: 5px 15px;
   border-radius: 12%;
-  background-color: gray;
+  background-color: var(--grayblue);
   color: white;
 }
