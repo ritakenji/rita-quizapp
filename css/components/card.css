@@ -20,7 +20,7 @@
   stroke-linecap: "round";
   stroke-linejoin: "round";
   position: absolute;
-  top: -15px;
+  top: -8px;
   right: 5vw;
 }
 
@@ -66,6 +66,6 @@
   border: 1px solid black;
   padding: 5px 15px;
   border-radius: 12%;
-  background-color: gray;
+  background-color: var(--grayblue);
   color: white;
 }
