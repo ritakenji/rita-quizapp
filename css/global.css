@@ -4,10 +4,11 @@
   --pink: #ffcdcd;
   --grayblue: #9baec5;
   --rouge: #bd4a73;
-  --filled: #f65273; /*for the bookmark, but the svg editing in code was not working so I used png instead*/
+  --loudblue: #5bd3ff;
+  --loudrouge: #f65273; /*for the bookmark, but the svg editing in code was not working so I used png instead*/
 
   /* Size Variables */
-  --big: 3rem;
+  --big: 3em;
   --total: 100%;
 }
 

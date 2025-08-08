@@ -1,12 +1,12 @@
 .card {
   width: 90vw;
-  border: 1px solid black;
+  border: 1px solid var(--blue);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
-  padding: 1rem;
+  margin-bottom: 2em;
+  padding: 1em;
   position: relative;
   background-color: white;
 }
@@ -17,7 +17,7 @@
 }
 
 .card__bookmark__img {
-  width: 2rem;
+  width: 2em;
   /* height: 2rempx; */
   fill: "none";
   stroke: "black";
@@ -37,6 +37,13 @@
 
 .card__question {
   text-align: center;
+}
+
+.card__answer {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue);
 }
 
 .card__answer--hidden {
@@ -62,10 +69,11 @@
 
 .card__tags {
   list-style-type: none;
+  margin-left: 2em;
   padding: 0;
   display: flex;
   align-self: flex-start;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .card__tags__tag {
