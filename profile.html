@@ -22,6 +22,8 @@
       <h1 class="main-header__title">Quiz App</h1>
     </header>
 
+    <!--******************************************* BIO PROFILE *******************************************-->
+
     <main class="profile-page">
       <section class="profile__top">
         <img
@@ -51,27 +53,37 @@
           que este poema te faça perder tempo.
         </p>
       </article>
+
+      <!--******************************************* COUNTERS *******************************************-->
+
       <section class="profile__counters">
         <button class="profile_counters__counter">
-          <img
-            class="counter__question"
-            src="./assets/question-white.png"
-            alt="question"
-          />
-          <p>10</p>
+          <a href="index.html">
+            <img
+              class="counter__question"
+              src="./assets/question-white.png"
+              alt="question"
+            />
+            <p>10</p>
+          </a>
         </button>
         <button class="profile_counters__counter">
-          <img
-            class="counter__bookmark"
-            src="./assets/bookmark-white.png"
-            alt="bookmarks"
-          />
-          <p>7</p>
+          <a href="bookmarks.html">
+            <img
+              class="counter__bookmark"
+              src="./assets/bookmark-white.png"
+              alt="bookmarks"
+            />
+            <p>7</p>
+          </a>
         </button>
       </section>
+
+      <!--******************************************* SETTINGS *******************************************-->
+
       <section class="profile__settings">
-        <h3>Settings</h3>
-        <article class="settings__dark-mode">
+        <h3 class="settings__title">Settings</h3>
+        <section class="settings__dark-mode">
           <h3 class="settings__dark-mode__title">Dark Mode</h3>
           <button
             class="dark-mode__button dark-mode__button--pushed"
@@ -83,9 +95,11 @@
               alt="switch"
             />
           </button>
-        </article>
+        </section>
       </section>
     </main>
+
+    <!--******************************************* FOOTER *******************************************-->
 
     <footer class="main-footer">
       <nav class="footer-nav">
