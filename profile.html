@@ -57,7 +57,7 @@
       <!--******************************************* COUNTERS *******************************************-->
 
       <section class="profile__counters">
-        <button class="profile__counters__button">
+        <button class="profile__counters__button" aria-label="Go to homepage">
           <a
             class="counters__button__link"
             href="index.html"
@@ -71,17 +71,12 @@
             <p>10</p>
           </a>
         </button>
-        <button class="profile__counters__button">
-          <a
-            class="counters__button__link"
-            href="bookmarks.html"
-            aria-label="Bookmarks' counter"
-          >
-            <img
-              class="counter__bookmark"
-              src="./assets/bookmark-white.png"
-              alt="bookmarks"
-            />
+        <button
+          class="profile__counters__button"
+          aria-label="Go to Bookmarks page"
+        >
+          <a class="counters__button__link" href="bookmarks.html">
+            <img class="counter__bookmark" src="./assets/bookmark-white.png" />
             <p>7</p>
           </a>
         </button>
@@ -95,7 +90,7 @@
           <h3 class="settings__dark-mode__title">Dark Mode</h3>
           <button
             class="dark-mode__button dark-mode__button--pushed"
-            aria-label="Turn on dark mode"
+            aria-label="Toggle dark mode"
           >
             <img
               class="dark-mode__button__img"
@@ -111,7 +106,10 @@
 
     <footer class="main-footer">
       <nav class="footer-nav">
-        <a class="footer-nav__link" href="index.html" aria-label="Home Page"
+        <a
+          class="footer-nav__link"
+          href="index.html"
+          aria-label="Go to Home Page"
           ><img
             class="footer-nav__link__home"
             src="./assets/home.png"
@@ -120,7 +118,7 @@
         <a
           class="footer-nav__link"
           href="bookmarks.html"
-          aria-label="Bookmarks Page"
+          aria-label="Go to Bookmarks Page"
           ><img
             class="footer-nav__link__bookmark"
             src="./assets/bookmark_transparent.png"
@@ -129,7 +127,7 @@
         <a
           class="footer-nav__link footer-nav__link--active"
           href="profile.html"
-          aria-label="Profile Page"
+          aria-label="Go to Profile Page"
           ><img
             class="footer-nav__link__profile"
             src="./assets/profile_filled.png"
