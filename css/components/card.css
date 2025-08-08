@@ -40,9 +40,10 @@
 }
 
 .card__answer {
+  text-align: center;
   font-size: 2rem;
-  text-shadow: 0 0 15px var(--loudblue), 0 0 10px var(--blue),
-    0 0 15px var(--loudblue);
+  font-weight: 700;
+  color: var(--blue);
 }
 
 .card__answer--hidden {
@@ -68,6 +69,7 @@
 
 .card__tags {
   list-style-type: none;
+  margin-left: 2em;
   padding: 0;
   display: flex;
   align-self: flex-start;
