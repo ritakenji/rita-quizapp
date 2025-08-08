@@ -22,61 +22,84 @@
       <h1 class="main-header__title">Quiz App</h1>
     </header>
 
-    <main class="main-content">
-      <section class="profile">
-        <article class="profile__top">
-          <img
-            class="profile__top__img"
-            src="./assets/user.png"
-            alt="profile-picture"
-          />
-          <h2 class="profile__top__title">Rita Macedo</h2>
-        </article>
-        <article class="profile__about-me">
-          <h3 class="profile__about-me__title">About me</h3>
-          <p class="profile__about-me__text">
-            About me? Right now, right now? I feel like my brain has already
-            fried past the point of return. Thank you Neuefische, you have
-            successfully destroyed me on a Monday :) I love it here! YAY! No but
-            for real, very happy with this opportunity and I am learning a
-            looooot! Can't wait to be a professional in the field and make
-            websites for all my cool friends and their projects.
-          </p>
-        </article>
-        <ul class="profile__counters">
-          <li class="profile_counters__counter">
+    <!--******************************************* BIO PROFILE *******************************************-->
+
+    <main class="profile-page">
+      <section class="profile__top">
+        <img
+          class="profile__top__img"
+          src="./assets/user.png"
+          alt="profile-picture"
+        />
+        <h2>Sorreia Dementeia</h2>
+      </section>
+      <article class="profile__about-me">
+        <h3>About me</h3>
+        <p class="profile__about-me__text">
+          Isto é um talento como o vento no relento se me sento não levanto
+          assim canto esperanto no entanto trago manto e espanto espanto palhaço
+          espanto. Espanto? Espantalho? Vai antes ao talho senão perco e falho o
+          vampiro come alho sem açúcar eu desmaio mas só lá eu caio se no bairro
+          primeiro de Maio me distraio vai tu mazé pó caraio que ela fútilmente
+          abraça a mente que voa no expoente sempre influente sempre decadente
+          mas não sejas demente salta agora e vai em frente.
+        </p>
+        <p class="profile__about-me__text">
+          Pa ti, tu sabes quem. Quem? Quem? Ro-Quem roll pa sempre eu troll.
+          Sorri*, ela Sorreia. Tu já demente, mas ela Dementeia.
+        </p>
+        <p class="profile__about-me__text--right">
+          * a não ser confundido com sorry, sorry nada! Isto é talento! Espero
+          que este poema te faça perder tempo.
+        </p>
+      </article>
+
+      <!--******************************************* COUNTERS *******************************************-->
+
+      <section class="profile__counters">
+        <button class="profile_counters__counter">
+          <a href="index.html">
             <img
               class="counter__question"
-              src="./assets/question.png"
+              src="./assets/question-white.png"
               alt="question"
             />
-          </li>
-          <li class="profile_counters__counter">
+            <p>10</p>
+          </a>
+        </button>
+        <button class="profile_counters__counter">
+          <a href="bookmarks.html">
             <img
               class="counter__bookmark"
-              src="./assets/bookmark_filled_2.png"
+              src="./assets/bookmark-white.png"
               alt="bookmarks"
             />
-          </li>
-        </ul>
-        <section class="profile__settings">
-          <h3 class="profile__settings__title">Settings</h3>
-          <article class="settings__dark-mode">
-            <h3 class="settings__dark-mode__title">Dark Mode</h3>
-            <button
-              class="dark-mode__button dark-mode__button--pushed"
-              aria-label="Turn on dark mode"
-            >
-              <img
-                class="dark-mode__button__img"
-                src="./assets/switch.png"
-                alt="switch"
-              />
-            </button>
-          </article>
+            <p>7</p>
+          </a>
+        </button>
+      </section>
+
+      <!--******************************************* SETTINGS *******************************************-->
+
+      <section class="profile__settings">
+        <h3 class="settings__title">Settings</h3>
+        <section class="settings__dark-mode">
+          <h3 class="settings__dark-mode__title">Dark Mode</h3>
+          <button
+            class="dark-mode__button dark-mode__button--pushed"
+            aria-label="Turn on dark mode"
+          >
+            <img
+              class="dark-mode__button__img"
+              src="./assets/switch.png"
+              alt="switch"
+            />
+          </button>
         </section>
       </section>
     </main>
+
+    <!--******************************************* FOOTER *******************************************-->
 
     <footer class="main-footer">
       <nav class="footer-nav">
@@ -96,7 +119,7 @@
             alt="bookmark"
         /></a>
         <a
-          class="footer-nav__link"
+          class="footer-nav__link footer-nav__link--active"
           href="profile.html"
           aria-label="Profile Page"
           ><img
