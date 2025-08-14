@@ -44,7 +44,7 @@
 <p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
 <p>The task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed. We were given the freedom to choose the theme of the quiz, or to pick one from the options provided. For lack of time, I decided to go for the latter (how tragically boring, I know).</p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-2" height=375px width=400px>
+  <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-2" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-2/quiz-app/wireframes/quiz-app-form-page.png" alt="reference-image-1" height=375px width=400px>
 </p>
 <p>The main goal of this project was to apply all the learned and practiced subjects taught in the first week of the bootcamp: HTML and CSS. Part 2 of this project was to start implementing the newly acquired Javascript knowledge, to make the layout more interactable.</p>
 
@@ -52,7 +52,7 @@
 
 <h3 id="notes">📝 Notes</h3>
 
-This project will be edited as time goes by. Part 1 was creating the website's layout using only HTML and CSS. Part 2 will be implementing Javascript. Some changes may apply from time to time!
+Part 1 of this project was creating the website's layout using only HTML and CSS. Part 2 was about implementing Javascript to add interactivity between elements and pages. Some changes may apply from time to time, as this project will be edited as time goes by to optimize functionality, design and showcase new learning outcomes!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +68,7 @@ The application is optimized for mobile screen, but responsive CSS design has be
 </div>
 </br>
 
-It consists of 3 main pages:
+It consists of 4 pages:
 
 - 🏠 **Home page**: Here, the user will have access to view all questions available on the platform.
   - Each card will have a question and upon clicking the button, the user unveils the correct answer. It is also possible to hide the answer once reveiled.
@@ -76,6 +76,8 @@ It consists of 3 main pages:
   - It is possible for the user to bookmark each question of their interest, which will be stored in the _Bookmarks page_.
 - 🔖 **Bookmarks page**: This is a exclusively dedicated space for the user to view the questions they've bookmarked on the homepage.
   - Here the user may not just view, but also remove a card from their saved bookmark selection.
+- ➕ **Add page**: On this page, the user can create new questions by submitting a question, answer, and hashtag.
+  - The main feature of this page is the form, consisting of 3 input areas and one button.
 - 👤 **Profile page**: This section allows the user to view and manage their profile and settings.
   - '_About Me_' section displays the user's bio.
   - Present on this page are 2 _counters_ - number of questions created and number of saved bookmarks.
@@ -89,7 +91,7 @@ It consists of 3 main pages:
 - Learning how to correctly use the **BEM** method to classify the page's elements;
 - Understanding the **CSS box-model**, **flexbox** and **positioning** principles to achieve a clean and **responsive design** that works seamlessly;
 - Combining HTML and Javascript via **onclick** attributes, in order to trigger actions that allow certain elements to change appearance and others to be created or even fully erased.
-- Integrating JavaScript functions like **if/else**, as well as data structures such as **arrays** and **objects**;
+- Integrating JavaScript statements like **if/else**, as well as data structures such as **arrays** and **objects**;
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
