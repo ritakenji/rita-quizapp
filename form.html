@@ -26,13 +26,14 @@
 
     <!--******************************************* FORM SECTION *******************************************-->
 
-    <main class="add-page">
-      <form data-js="form" class="form">
+    <main class="add-page" data-js="addPage">
+      <form class="form" data-js="form">
         <fieldset class="fieldset">
           <legend class="legend">Add New Card Question</legend>
           <label for="new-question" class="label">Your Question:</label>
           <textarea
             name="newQuestion"
+            id="new-question"
             data-js="newQuestion"
             rows="5"
             maxlength="150"
@@ -43,6 +44,7 @@
           <label for="new-answer">Your Answer:</label>
           <textarea
             name="newAnswer"
+            id="new-answer"
             data-js="newAnswer"
             rows="5"
             maxlength="150"
@@ -51,7 +53,13 @@
             <span data-js="remaining-characters">150</span> characters left
           </p>
           <label for="newTag">Tag:</label>
-          <input type="text" name="newTag" class="newTag" data-js="newTag" />
+          <input
+            type="text"
+            name="newTag"
+            id="newTag"
+            class="newTag"
+            data-js="newTag"
+          />
         </fieldset>
         <button type="submit" data-js="submitButton" class="submitButton">
           Submit
