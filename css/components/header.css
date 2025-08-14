@@ -9,6 +9,10 @@
   z-index: 3;
 }
 
+.main-header--darkmode {
+  background-color: var(--darkrouge);
+}
+
 .main-header__title {
   font-size: var(--big);
   font-family: "Henny Penny", system-ui;
