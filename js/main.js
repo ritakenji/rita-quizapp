@@ -1,8 +1,9 @@
 /* ************************************************  TOGGLE BOOKMARK
 
- first tried .checked on bookmarkButton variable on addEventListener but this button is not the check type so decided to do it another way
+- first tried '.checked' on 'bookmarkButton' variable (on addEventListener) but this button is not the check type so decided to do it another way
 
 ************************************************************************************************************************************************ */
+
 const bookmarkButton = document.querySelector('[data-js="cardBookmark"]');
 const imageButton = document.querySelector('[data-js="imgCardBookmark"]');
 
