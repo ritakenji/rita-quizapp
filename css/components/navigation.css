@@ -7,6 +7,10 @@
   z-index: 3;
 }
 
+.main-footer--darkmode {
+  background-color: var(--darkblue);
+}
+
 .footer-nav {
   display: flex;
   justify-content: space-around;
@@ -26,6 +30,16 @@
 .footer-nav__link--active {
   background-color: var(--rouge);
 }
+
+.footer-nav__link--active--darkmode {
+  background-color: var(--darkrouge);
+}
+
+/* I dont know how to make ↓↓↓ work
+
+.footer-nav__link--darkmode:hover {
+  background-color: var(--darkrouge);
+} */
 
 .footer-nav__link:hover {
   background-color: var(--rouge);

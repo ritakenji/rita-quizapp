@@ -6,6 +6,9 @@
   --rouge: #bd4a73;
   --loudblue: #5bd3ff;
   --loudrouge: #f65273; /*for the bookmark, but the svg editing in code was not working so I used png instead*/
+  --dark: #222222;
+  --darkrouge:#823d55;
+  --darkblue: #384e68;
 
   /* Size Variables */
   --big: 3em;
