@@ -39,22 +39,38 @@
 </details>
 </br>
 
+<!-- ******************************************************** OVERVIEW *************************************************
+
+Start with a clear, engaging title for your project. Write a brief summary explaining what the project is, its main purpose, and what someone can expect to find in the repository.
+
+-->
+
 <h2 id="overview">🌐 Overview</h2>
 
-<p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is the first (and second) ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische.</p>
-<p>The task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed. We were given the freedom to choose the theme of the quiz, or to pick one from the options provided. For lack of time, I decided to go for the latter (how tragically boring, I know).</p>
+<p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is an ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische. The main goal of this project is to apply all the learned material taught during the bootcamp's sessions.</p>
+
+<p>In part 1, the task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed.</p>
+
+<p>In part 2, we were tasked to create a whole new page and add interactability to some elements present in entire application.</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-2/quiz-app/wireframes/quiz-app-form-page.png" alt="reference-image-1" height=325px width=200px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-2" height=375px width=400px>
 </p>
-<p>The main goal of this project was to apply all the learned and practiced subjects taught in the first week of the bootcamp: HTML and CSS. Part 2 of this project was to start implementing the newly acquired Javascript knowledge, to make the layout more interactable.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <h3 id="notes">📝 Notes</h3>
 
-Part 1 of this project was creating the website's layout using only HTML and CSS. Part 2 was about implementing Javascript to add interactivity between elements and pages. Some changes may apply from time to time, as this project will be edited as time goes by to optimize functionality, design and showcase new learning outcomes!
+<p>Part 1 of this project was creating the website's layout using only HTML and CSS. Part 2 was about implementing Javascript to add interactivity between elements.</p>
+<p>❗Some changes may apply from time to time, as this project will be continuously edited throughout the bootcamp to optimize functionality, design and showcase new learning outcomes.❗</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ******************************************************** FEATURES *************************************************
+
+ List the key functionalities and features of your application. What can a user do with it? Think of this as a bullet-point summary of your project's capabilities.
+
+ -->
 
 <h2 id="features">🧩 Features</h2>
 
@@ -71,29 +87,46 @@ The application is optimized for mobile screen, but responsive CSS design has be
 It consists of 4 pages:
 
 - 🏠 **Home page**: Here, the user will have access to view all questions available on the platform.
-  - Each card will have a question and upon clicking the button, the user unveils the correct answer. It is also possible to hide the answer once reveiled.
-  - For categorizing purposes, each card also contains a set of 3 tags related to the subject.
-  - It is possible for the user to bookmark each question of their interest, which will be stored in the _Bookmarks page_.
+  - Each card will have a question and upon clicking the button, the user unveils the correct answer. It is also possible to hide the answer once revealed, toggling back and forth;
+  - By clicking on the bookmark icon, it is possible for the user to bookmark each question of their interest. <!--- which in the future part of the project will be stored in the _Bookmarks page_. --->
 - 🔖 **Bookmarks page**: This is a exclusively dedicated space for the user to view the questions they've bookmarked on the homepage.
-  - Here the user may not just view, but also remove a card from their saved bookmark selection.
-- ➕ **Add page**: On this page, the user can create new questions by submitting a question, answer, and hashtag.
+  <!---- Here the user may not just view, but also remove a card from their saved bookmark selection.--->
+- ➕ **Add page**: On this page, the user can create new question cards.
+  - These newly created question cards will be displayed on the Add page, below the form;
   - The main feature of this page is the form, consisting of 3 input areas and one button.
 - 👤 **Profile page**: This section allows the user to view and manage their profile and settings.
-  - '_About Me_' section displays the user's bio.
-  - Present on this page are 2 _counters_ - number of questions created and number of saved bookmarks.
-  - Last section is '_Settings_', which allows user to toggle **Dark Mode**.
+  - '_About Me_' section displays the user's bio;
+  - Present on this page are 2 _counters_ - number of questions created and number of saved bookmarks;
+  - Last section is '_Settings_', which allows the user to toggle **Dark Mode**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ******************************************************** LEARNING OUTCOMES *************************************************
+
+ This is a great section to highlight what you've learned. What new concepts did you apply? Did you master a new technology or design principle? This shows off the skills you've gained during the project.
+
+ -->
 
 <h2 id="learning-outcomes">🧠 Learning Outcomes</h2>
 
 - Using correct **HTML semantics** to structure the page and make it more accessible to anyone visiting it;
 - Learning how to correctly use the **BEM** method to classify the page's elements;
 - Understanding the **CSS box-model**, **flexbox** and **positioning** principles to achieve a clean and **responsive design** that works seamlessly;
-- Combining HTML and Javascript via **onclick** attributes, in order to trigger actions that allow certain elements to change appearance and others to be created or even fully erased.
-- Integrating JavaScript statements like **if/else**, as well as data structures such as **arrays** and **objects**;
+- **DOM** (Document Object Model) reading and manipulation.
+- Combining HTML with JavaScript via **click**, **change** and **submit** events, in order to trigger actions that allow certain elements to change appearance and others to be created or even fully erased;
+- All in all, integrating a wide set of JavaScript **statements**, **expressions**, **methods**, **functions**, and more to: <!-- , as well as data structures such as **arrays** and **objects**; -->
+  - **Toggle** styling of elements, text values and **darkmode**;
+  - **Submit forms**;
+  - **Count** characters in **input fields**;
+  - etc.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ******************************************************** TECHNOLOGIES *************************************************
+
+Clearly list all the programming languages and frameworks you used. It's a good idea to include visuals like skill icons to make this section stand out.
+
+ -->
 
 <h2 id="technologies">💻 Technologies</h2>
 
@@ -102,9 +135,12 @@ It consists of 4 pages:
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src="https://img.icons8.com/dusk/64/css3.png" alt="html-5" width="40" height="40"/></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> <img src="https://img.icons8.com/dusk/64/html-5.png" alt="html-5" width="40" height="40"/></a>
 </p>
-<p>✨ JavaScript ✨ CSS3 ✨ HTML5 ✨</p>
+<p>✨ JavaScript ✨ CSS ✨ HTML ✨</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ******************************************************** ACKNOWLEDGEMENTS *************************************************
+ -->
 
 <h2 id="acknowledgments">🏅 Acknowledgments</h2>
 
@@ -128,6 +164,7 @@ I am sure anyone could make great use of them for their own projects, especially
 - [Get BEM](https://getbem.com/naming/)
 - [CSS Tricks](https://css-tricks.com/guides/)
 - [Web Active Learning Neuefisch](https://web-active-learning.vercel.app/documents/css-responsive)
+- [Steve Ayo's Functions 101](https://www.steveayo.com/blog/function-declaration-function-expression-arrow-function/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
