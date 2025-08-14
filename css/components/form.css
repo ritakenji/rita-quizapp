@@ -26,13 +26,18 @@
 
 .fieldset label {
   font-size: 20px;
+  font-weight: 700;
   align-self: flex-start;
 }
 
 .fieldset textarea {
-  margin-bottom: 1em;
   width: 100%;
   box-sizing: border-box;
+}
+
+.remaining-characters {
+  margin: 0 0 1em 0;
+  align-self: flex-start;
 }
 
 .newTag {
