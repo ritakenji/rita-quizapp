@@ -69,13 +69,13 @@ const answerCounter = document.querySelectorAll(
 )[1];
 
 questionInput.addEventListener("input", (event) => {
-  questionCounter.textContent = 150 - event.target.value.length;
+  counting(questionCounter, event.target.value.length);
 });
 
 answerInput.addEventListener("input", (event) => {
-  answerCounter.textContent = 150 - event.target.value.length;
+  counting(answerCounter, event.target.value.length);
 });
 
-function fodace() {
-  // I DONT KNOW HOW TO NOT REPEAT CODE RIGHT NOW, LOOK AT THIS LATER FODACE
+function counting(element, elementLength) {
+  element.textContent = 150 - elementLength;
 }
