@@ -47,7 +47,7 @@
 }
 
 .card__answer--hidden {
-  visibility: hidden;
+  display: none; /* initially had visibility:hidden but then the hidden <p> was taking up space */
 }
 
 .card__button {
