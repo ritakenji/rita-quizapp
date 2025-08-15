@@ -39,3 +39,5 @@ darkmodeSlider.addEventListener("change", () => {
     );
   }
 });
+
+// document.documentElement.style.setProperty("--main-background-color", "green");
