@@ -49,9 +49,9 @@ Start with a clear, engaging title for your project. Write a brief summary expla
 
 <p><a href="https://ritakenji.github.io/rita-quizapp/">Rita-quizapp</a> is an ongoing project created as part of the Web-Development Front-End bootcamp's Recap Projects at Neuefische. The main goal of this project is to apply all the learned material taught during the bootcamp's sessions.</p>
 
-<p>In part 1, the task provided was simple: build the layout of a mobile web application, a quiz app, following the required design and behaviour specifications listed.</p>
+<p>In part 1, the task provided was simple: build the layout of a mobile web application (a quiz app) following the required design and behaviour specifications listed.</p>
 
-<p>In part 2, we were tasked to create a whole new page and add interactability to some elements present in entire application.</p>
+<p>In part 2, we were tasked to create a whole new page and add interactability to some elements present through the entire application.</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/homepage.png" alt="reference-image-1" height=375px width=400px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-2/quiz-app/wireframes/quiz-app-form-page.png" alt="reference-image-1" height=325px width=200px><img src="https://raw.githubusercontent.com/wd-bootcamp/web-exercises/refs/heads/main/sessions/recap-project-1/quiz-app/assets/profilepage.png" alt="reference-image-2" height=375px width=400px>
@@ -61,8 +61,8 @@ Start with a clear, engaging title for your project. Write a brief summary expla
 
 <h3 id="notes">📝 Notes</h3>
 
-<p>Part 1 of this project was creating the website's layout using only HTML and CSS. Part 2 was about implementing Javascript to add interactivity between elements.</p>
-<p>❗Some changes may apply from time to time, as this project will be continuously edited throughout the bootcamp to optimize functionality, design and showcase new learning outcomes.❗</p>
+<p>Part 1 of this project was creating the website's layout using only HTML and CSS. Part 2 was about implementing JavaScript to add interactivity between elements.</p>
+<p>❗Some changes may apply from time to time, as this project will be continuously growing throughout the bootcamp to optimize functionality, design and showcase new learning outcomes.❗</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
